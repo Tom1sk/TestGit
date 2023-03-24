@@ -8,5 +8,7 @@ public class Main {
         System.out.println(vysledek);
         Zvire zvire = new Zvire("Hello", "world");
         System.out.println(zvire);
+
+        System.out.println(zvire + "" + zvire);
     }
 }
